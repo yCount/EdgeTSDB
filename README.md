@@ -3,6 +3,8 @@ Embedded time-series storage engine with Gorilla-style compression.
 
 ## MVP Scope
 
+> **Work in Progress**
+
 - One `.etsdb` file containing one ordered time series.
 - Append-only compressed page records.
 - Gorilla-style timestamp and `double` compression.
